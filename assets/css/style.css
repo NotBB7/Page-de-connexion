@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+ /*footer*/
+
+
+footer{
+    line-height: 1.42857;
+    font-size: 14px;
+    font-size: 1.4rem;
+    background-color: #87bb34;
+    color: white;
+    width: auto;
+}
+footer .contenue .message{
+    color: white;
+    border-spacing: 2px;
+}
+.test{
+    width: 80vw;
+}
+.lien a{
+    text-decoration: none;
+    color: gray; 
+    text-align: center;
+}
+.barre{
+    width: auto;
+    line-height: 1.42857;
+}
+.barre1{
+    background-color: #87bb34;
+    width: 50%;
+    height: 46px;
+    position: relative;
+    display: block;
+}
+.barre2{
+    background-color: #44a33d;
+    height: 46px;
+    width: 50%;
+    position: relative;
+    display: block;
+}
