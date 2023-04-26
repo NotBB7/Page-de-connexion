@@ -47,3 +47,26 @@ footer .contenue .message{
     position: relative;
     display: block;
 }
+
+.mid{
+    background-color: #F1F1F1;
+    padding-top: 1em;
+}
+.petit-nav {
+    display: flex;
+    margin-left: 10em;
+    color: #5a545a;
+}
+.accueil {
+    color: #5a545a;
+    text-decoration: none;
+}
+
+.accueil:hover {
+    font-weight: 700;
+}
+.identifier {
+    color: #87BB34;
+    font-weight: bold;
+    font-size: 1.2em;
+}
