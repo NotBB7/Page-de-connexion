@@ -5,6 +5,22 @@ body{
     padding: 0;
 }
 
+h1 {
+    text-align: center;
+    color: #5a545a;
+    margin: 1.5em;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+h2 {
+    color: #5a545a;
+    text-align: center;
+    margin-top: 1.5em;
+    font-size: 1.7em;
+    font-weight: 600;
+}
+
 
  /*footer*/
 
@@ -69,4 +85,16 @@ footer .contenue .message{
     color: #87BB34;
     font-weight: bold;
     font-size: 1.2em;
+}
+
+.box{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 24em;
 }
