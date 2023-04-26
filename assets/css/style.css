@@ -187,3 +187,28 @@ footer .contenue .message{
     width: 50%;
     height: 3.5em;
 }
+
+
+
+
+@media screen and (max-width: 900px) {
+    .navigation {
+    
+      height: 0.7em;
+    }
+    .nav2{
+        display: none;
+    }
+    .form{
+        display:flex ;
+        flex-direction: column;
+        
+    }
+    .box, .box1{
+        margin:  0 auto 10px;
+    }
+
+    footer{
+        display: none;
+    }
+  }
