@@ -20,7 +20,18 @@ h2 {
     font-size: 1.7em;
     font-weight: 600;
 }
+h3{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
 
+h4 {
+    font-size: 1.7em;
+    text-align: center;
+    margin-top: 1.5em;
+    font-weight: 600;
+}
 
  /*footer*/
 
@@ -64,14 +75,16 @@ footer .contenue .message{
     display: block;
 }
 
-.mid{
-    background-color: #F1F1F1;
-    padding-top: 1em;
-}
 .petit-nav {
     display: flex;
     margin-left: 10em;
     color: #5a545a;
+}
+
+.identifier {
+    color: #87BB34;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 .accueil {
     color: #5a545a;
@@ -81,20 +94,96 @@ footer .contenue .message{
 .accueil:hover {
     font-weight: 700;
 }
-.identifier {
-    color: #87BB34;
-    font-weight: bold;
-    font-size: 1.2em;
+
+.mid {
+    background-color: #F1F1F1;
+    padding-top: 1em;
 }
 
-.box{
+.box {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
 }
-.box1{
+
+.box1 {
     display: flex;
     flex-direction: column;
-    background-color: #fff;
+    background-color: rgb(218, 215, 215);
     width: 24em;
+}
+
+.paragraphe{
+    width: 100%;
+}
+
+.button{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.box2 {
+    background-color: #00A0E0;
+    width: 24em;
+    color: white;
+}
+.ms88 {
+    margin: 10px;
+    margin-top: 1.5em;
+    color: #5a545a;
+}
+
+.ms89 {
+    margin: 10px;
+    margin-top: 1.5em;
+    color: white;
+}
+
+.inscription {
+    background-color: #00A0E0;
+    border: 2px;
+    width: 60%;
+    height: 3.5em;
+    justify-content: center;
+    margin-top: 6em;
+}
+
+.inscription:hover{
+    background-color: #5377b4;
+    cursor: pointer;
+}
+.access{
+    text-align: end;
+    font-weight: 500;
+    margin: 2.5em 0;
+}
+.id{
+    margin-top: 1em;
+    margin-left: 2em;
+    width: 68%;
+    height: 10%;
+}
+.bloc{
+    width: 100%;
+    height: 100%;
+}
+.i{
+    display: inline-flex;
+    background-color: #F1F1F1;
+    color: #5a545a;
+    padding: 3px 10px;
+    margin-left: 1em;
+    border-radius: 60px;
+    justify-content: center;
+    font-style: italic;
+}
+.connect{
+    background-color: #E3007E;
+    border: 0px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 1.5em;
+    width: 50%;
+    height: 3.5em;
 }
